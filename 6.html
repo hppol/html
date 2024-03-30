@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        .div1{
+            width: 200px;
+            height: 210px;
+            border: 3px solid palegreen;
+            float: left;
+        }
+        .div2{
+            width: 200px;
+            height: 210px;
+            border: 3px solid palevioletred;
+            float: left;
+            margin-left: 20px;
+        }
+        .div3{
+            width: 200px;
+            height: 210px;
+            border: 3px solid palevioletred;
+            float: left;
+            margin-left: 20px;
+            /* overflow: hidden; 영역을 벗어난 부분을 안 보이게 처리 */
+            overflow: scroll; /*스크롤 처리*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h2>좋은 상황</h2>
+        <p>
+        Don't waste it, your time’s a bank
+        Come on and end it, he's real bad
+        Don't indulge him, no, you better trust me
+        Why can’t you see it?
+        </p>
+    </div>
+
+    <div class="div2">
+        <h2>안 졶은 상황</h2>
+        <p>
+        I'm super shy, super shy
+        But wait a minute while I
+        Make you mine, make you mine
+        I'm all nervous 'cause
+        You're on my mind
+        All the time
+        I wanna tell you but I'm
+        Super shy, super shy
+        </p>
+    </div>
+
+    <div class="div3">
+        <h2>좋게 만들기</h2>
+        <p>
+        I'm super shy, super shy
+        But wait a minute while I
+        Make you mine, make you mine
+        I'm all nervous 'cause
+        You're on my mind
+        All the time
+        I wanna tell you but I'm
+        Super shy, super shy
+        </p>
+    </div>
+</body>
+</html>
