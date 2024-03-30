@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <style>
+        li{
+            list-style: square; /*태그의 스타일을 결정*/
+        }
+        img{
+            width: 800px;
+            height: 400px;
+        }
+        dd:hover{
+            color: orange; /*마우스 커서 올릴 때 효과 주기*/
+        }
+        li:active{
+            color: lightcoral; /*마우시 클릭 시 효과 주기*/
+        }
+    </style>
+</head>
+<body>
+    <!--
+        ul(비정렬 목록 태그) li와 사용 ex) 추천글 같이 순서가 중요하지 않을때 사용
+        ol(정렬 목록 태그) li와 사용 ex)검색어 순위같은 경우 순서가 중요한 곳에서 사용
+        dl(정의목록태그 용어뜻을 나열) dt, dd와 사용
+    -->
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvXAnF%2FbtqW4h6WsNd%2FDPltSq0TkTRbVjgisCsQO0%2Fimg.png" alt="대충 ul ol 차이 알려주는이미지임"/>
+    <br><br><br>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+
+    <dl>
+        <dt>title</dt>
+        <dd>imformation</dd>
+    </dl>
+</body>
+</html>
