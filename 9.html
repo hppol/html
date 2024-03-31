@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,th,td{
+            border: 3px solid black;
+        }
+        td{
+            width: 100px;
+        }
+        table{
+            border-collapse: collapse;
+            /* seperate 틈이 있음
+            collapse 틈을 병합 */
+        }
+    </style>
+</head>
+<body>
+    <!-- table>tr(행)>td열) -->
+    <table>
+        <!-- caption으로 table 제목 -->
+        <!-- th table head 중앙으로, 굵게 -->
+        <!-- colspan 행볍합 rowspan 열병합 -->
+        <caption>table 제목</caption>
+    <tr>
+        <th>table1</th>
+        <th>table2</th>
+    </tr>
+    <tr>
+        <td>table3</td>
+        <td>table4</td>
+    </tr>
+    <tr>
+        <td>table5</td>
+        <td>table6</td>
+    </tr>
+    </table><br><br><br><br>
+    <table>
+        <tr>
+            <td colspan="2">1</td>
+            <!-- <td>2</td> -->
+            <td>3</td>
+            <td rowspan="3">4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <!-- <td>8</td> -->
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <!-- <td>12</td> -->
+        </tr>
+    </table>
+</body>
+</html>
